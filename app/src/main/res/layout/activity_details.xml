@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#faa403"
+    tools:context="com.example.myjsonreader.DetailsActivity">
+
+    <ImageView
+        android:id="@+id/disp_img_iv"
+        android:layout_width="126dp"    android:layout_height="105dp"
+        android:background="#03e3f7" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/login_name_tv"
+            android:text="html_url"
+            android:textSize="15sp"
+            android:textColor="#0800fd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/html_url_tv"
+        android:text="html_url"
+        android:textSize="15sp"
+        android:textColor="#0800fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/gists_url_tv"
+        android:text="html_url"
+        android:textSize="15sp"
+        android:textColor="#0800fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/repos_url_tv"
+        android:text="html_url"
+        android:textSize="15sp"
+        android:textColor="#0800fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/events_url_tv"
+        android:text="html_url"
+        android:textSize="15sp"
+        android:textColor="#0800fd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
